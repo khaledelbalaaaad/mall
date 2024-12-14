@@ -1,0 +1,107 @@
+style.css
+body {
+    background-image: url(https://i.pinimg.com/736x/ac/9c/55/ac9c550433b38baee05d9a9564928c86.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+   
+}
+.tittle {
+    color: #0866ff;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+
+    margin-top: 30px;
+}
+.description {
+    text-align: center;
+    margin-top: -50px;
+    font-weight: 500;
+    font-family:"mulish", sans-serif;
+ }
+ .outer-container {
+    display: flex;
+    justify-content: center;
+ }
+ .inner-container {
+    background-color: white;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 18px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-redius: 7px;
+    -ms-border-radius:7px;
+    -o-border-radius:7px;
+    box-shadow: 0px 3px 6px rgba(128, 128, 128, 0.5);
+ }
+ input {
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.241);
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    -moz-border-redius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius:5px;
+    font-size: 14px;
+
+    padding: 0 15px;
+ }
+input::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(128, 128, 128, 0.86);
+}
+.secInput {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+ button {
+height: 48px;
+font-size: 14px; 
+color: white; 
+font-weight: 600;
+background-color: #0866ff;
+border: none;
+border-radius: 7px;
+-webkit-border-radius:7px;
+    -moz-border-redius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius:7px;
+    cursor: pointer;
+ }
+    
+ button:hover{
+    opacity: 0.9;
+ }
+ .signup-container {
+    display: flex;
+    justify-content: center;
+ }
+ .forgotten {
+    color: #0866ff;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    cursor:pointer;
+ }
+ .forgotten:hover{
+    text-decoration: underline;
+ }
+
+ .hr {
+    height: 1px;
+    background-color: rgba(192, 192, 192, 0.562);
+    margin-bottom: 20px;
+ } 
+ .signup{
+    background-color: #42b72a;
+    width: 200px;
+ }
